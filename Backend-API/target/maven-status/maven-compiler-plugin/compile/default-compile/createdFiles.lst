@@ -1,0 +1,4 @@
+edu\northwestern\ssa\AwsSignedRestRequest.class
+edu\northwestern\ssa\api\Search.class
+edu\northwestern\ssa\Config.class
+edu\northwestern\ssa\api\ElasticSearch.class
