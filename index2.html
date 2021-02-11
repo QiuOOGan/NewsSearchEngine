@@ -145,10 +145,10 @@
           let res;
           let key = 0;
         while((res = re.exec(text)) !== null){
-            console.log(res);
             textArray.push(text.substring(start, res.index));
             textArray.push(<b key={key}>{res[0].replace(/<\/?b>/g,'')}</b>);
             start = re.lastIndex;
+            key += 1;
         }
         if(start != text.length - 1){
           textArray.push(text.substring(start));
@@ -191,7 +191,7 @@
     render() {
       return (
         <div class="container d-flex flex-column" >
-          <div class="row justify-content-center"style={{margin:"10px"}}><img src='https://imgur.com/khYG5BL.png' style={{maxWidth : "100%", maxHeight : "100%"}}></img></div>
+          <div class="row justify-content-center"style={{margin:"10px"}}><img src='./logo.jpg' style={{maxWidth : "100%", maxHeight : "100%"}}></img></div>
           <div class="container d-flex justify-content-center" style={{margin : "5px"}} >
             <div class="input-group input-group-lg">
               <div class="input-group-prepend" style={{padding : "5px", backgroundColor : "rgb(238, 234, 234)", borderRadius : "10px 0px 0px 10px"}}>
