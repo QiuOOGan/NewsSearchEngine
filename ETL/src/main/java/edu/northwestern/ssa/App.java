@@ -30,7 +30,7 @@ public class App {
     public static <string> void main(String[] args) throws IOException {
 
         //// STEP1 Download The Warc File
-        String fn = "./gqx3267File.gz";
+        String fn = "./GQFile.gz";
         File f = new File(fn);
         if (!f.exists()) {
             downLoad(f);
