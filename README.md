@@ -6,4 +6,4 @@
 * Search Front end was deployed using a S3 Bucket on AWS.
 
 ## Update
-* This project is done and everything was taken down in order to save money.
+* This project is done and everything was taken down to save money.
